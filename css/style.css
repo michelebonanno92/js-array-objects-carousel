@@ -9,3 +9,52 @@ reset
  }
 
 
+/* struttura pagina html */
+
+main{
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+  .my-carousel{
+    height: 500px;
+    width: 800px;
+  }
+ 
+ .my-carousel .controls-container{
+   height: 100px;
+   display: flex;
+ }
+ 
+ .my-carousel .controls-container > *{
+   width: 50%;
+ }
+ 
+ .my-carousel .img-container {
+   height: 400px;
+   background-color: aqua;
+ }
+ 
+ .my-carousel .img-container > img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   display: none;
+ }
+ 
+ button{
+   cursor: pointer;
+ }
+ 
+ .my-carousel .img-container > img.active{
+   display: block;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
